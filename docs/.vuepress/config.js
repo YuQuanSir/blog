@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Leo`s TechStack',
   description: 'leochen cqy blog',
-  base: "/documents/",
+  base: "/blog/",
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
@@ -19,7 +19,7 @@ module.exports = {
     logo: '/img/logo.png',
     smoothScroll: true,
     lastUpdated: '最后更新时间',
-    repo: 'YuQuanSir/documents',
+    repo: 'YuQuanSir/blog',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
     repoLabel: '查看源码',
