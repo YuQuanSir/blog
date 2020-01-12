@@ -3,7 +3,7 @@ module.exports = {
   description: 'leochen cqy blog',
   base: "/blog/",
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/img/logo.png' }]
   ],
   markdown: {
     lineNumbers: true
@@ -16,7 +16,7 @@ module.exports = {
   plugins: ['@vuepress/back-to-top'],
 
   themeConfig: {
-    logo: '/img/logo.png',
+     logo: '/img/logo.png',
     smoothScroll: true,
     lastUpdated: '最后更新时间',
     repo: 'YuQuanSir/blog',
